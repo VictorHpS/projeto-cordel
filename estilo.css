@@ -8,18 +8,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap'); /*font-family: 'ssPaion One', cursive;*/
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 
 :root{
     --fonte1: Verdana , Geneva , Tahoma , sans-serif;
     --fonte2:'Passion One' , cursive;
     --fonte3: 'Sriracha', cursive;
+    --fonte4: 'Prompt', sans-serif;
 }
 
   
 html, body{
     min-height: 100vh;
     background-color: rgb(0, 0, 0);
-    font-family: var(--fonte1);
+    font-family: var(--fonte3);
 }
 
 header{
@@ -59,7 +62,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-size: 3vw;
-    font-family:  var(--fonte3);
+    font-family:  var(--fonte4);
 }
 
 section > p {
